@@ -1,0 +1,37 @@
+.navigation {
+    position: sticky;
+    top: 0;
+    margin: 5px;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navigation li {
+    display: inline-block;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: 0;
+    background: lightgray;
+    opacity: 90%;
+  }
+  
+  .navigation li a {
+    color: black;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  .navigation li a:hover {
+    background-color: black;
+    color: white;
+  }

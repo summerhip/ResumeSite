@@ -1,0 +1,25 @@
+#about {
+    text-align: center;
+    height: 600px;
+  }
+
+.myPic {
+    margin-top: 10px;
+    max-width: 300px;
+    max-height: 300px;
+    border: 2px black solid;
+    display: inline-block;
+}
+
+.aboutInfo {
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    max-width: 400px;
+    margin: 20px;
+    text-align: justify;
+}
+
+#about p a {
+    color: black;
+}
