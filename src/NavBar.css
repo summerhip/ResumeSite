@@ -1,11 +1,13 @@
 .navigation {
     position: sticky;
     top: 0;
-    margin: 5px;
+    margin: 0;
     padding: 0;
     width: 100%;
     text-align: center;
     z-index: 1;
+    background: lightgray;
+    opacity: 90%;
   }
   
   .navigation ul {
@@ -16,18 +18,13 @@
   
   .navigation li {
     display: inline-block;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 2%;
     margin: 0;
-    background: lightgray;
-    opacity: 90%;
   }
   
   .navigation li a {
     color: black;
-    display: block;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
   }
   
@@ -35,3 +32,4 @@
     background-color: black;
     color: white;
   }
+

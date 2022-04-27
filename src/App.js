@@ -8,52 +8,40 @@ import { Projects } from './Projects.js';
 
 //form somewhere??
 //linkedin link
-//upload to github
 //include samples of projs???
+//smooth scroll????
 
 function App() {
   return (
     <div className="App">
-      <head>
-          <title>Summer Shipp Resume</title>
-          <link rel="preconnect" href="https://fonts.googleapis.com" /> 
-          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> 
-          <link href="https://fonts.googleapis.com/css2?family=Space+Mono&display=swap" rel="stylesheet" />
-          <meta name="viewport" content="width=device-width,initial-scale=1" />
-          <link href="style.css" rel="stylesheet" />
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css"></link>
-      </head>
-      <body>
 
-        <NavBar />
+      <NavBar />
 
-        <div className='content'>
+      <div className='content'>
 
-          <About />
+        <About />
 
-          <hr />
+        <hr />
 
-          <Education />
+        <Education />
 
-          <hr />
+        <hr />
 
-          <Experience />
+        <Experience />
 
-          <hr />
+        <hr />
 
-          <Skills />
+        <Skills />
 
-          <hr />
+        <hr />
 
-          <Projects />
+        <Projects />
 
-          <hr />
-        
-        </div>
+        <hr />
+      
+      </div>
 
-        <footer>Thank you for reading!</footer>
-
-    </body>
+      <footer>Thank you for reading!</footer>
 
     </div>
   );
