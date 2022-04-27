@@ -26,7 +26,10 @@ export function About() {
             </div>
             <br /><br />
             <h3>
-            SCROLL!
+            {/* <a href='#education' className='scroll'>SCROLL!</a> */}
+            <a href='#education'>
+                SCROLL!
+            </a>
             <br />
             <FaArrowDown />
             </h3>
