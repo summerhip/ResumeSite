@@ -1,8 +1,6 @@
 {
-  "short_name": "Resume",
-  "name": "Summer Shipp Resume",
-  "homepage": "https://56841221.github.io/ResumeSite",
-  "private": true,
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",
@@ -23,24 +21,5 @@
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff",
-  "scripts": {
-		"start": "react-scripts start",
-		"build": "react-scripts build",
-		"predeploy": "npm run build",
-		"deploy": "gh-pages -d build",
-		"test": "react-scripts test",
-		"eject": "react-scripts eject"},
-  "dependencies": {
-		"gh-pages": "^2.0.1",
-		"react": "^16.8.3",
-		"react-dom": "^16.8.3",
-		"react-scripts": "2.1.5",
-		"yarn": "^1.13.0"},
-  "browserslist": [
-      ">0.2%",
-      "not dead",
-      "not ie <= 11",
-      "not op_mini all"
-  ]
+  "background_color": "#ffffff"
 }
