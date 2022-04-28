@@ -1,5 +1,5 @@
 import './Footer.css';
-import { FaLinkedin } from 'react-icons/fa';
+import { FaLinkedin, FaGithubSquare } from 'react-icons/fa';
 
 export function Footer() {
     return (
@@ -9,7 +9,10 @@ export function Footer() {
             Lets connect: 
             <br />
             <a href='https://www.linkedin.com/in/summerhip/'>
-                <FaLinkedin size='25px'/>
+                <FaLinkedin size='25px' />
+            </a>
+            <a href='https://github.com/summerhip'>
+               <FaGithubSquare size='25px' />
             </a>
       </footer>
     );

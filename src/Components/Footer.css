@@ -11,3 +11,7 @@ footer {
 footer a {
     color: white;
 }
+
+footer a:hover {
+    color: #ed7966;
+}

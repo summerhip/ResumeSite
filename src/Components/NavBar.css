@@ -22,6 +22,7 @@
     display: inline-block;
     padding: 2%;
     margin: 0;
+    border-radius: 15%;
   }
   
   .navigation li a {
@@ -29,12 +30,12 @@
     text-align: center;
     text-decoration: none;
   }
-  
+
   .navigation li a:hover {
     background-color: #303179;
     color: white;
+    border-radius: 15%;
   }
-
 
   @media only screen and (max-width: 731px) {
     .navigation {
