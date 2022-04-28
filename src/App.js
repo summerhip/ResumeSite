@@ -8,7 +8,8 @@ import { Projects } from './Components/Projects.js';
 import { FaLinkedin } from 'react-icons/fa';
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
-
+//scroll to off
+//create footer component
 
 function App() {
 

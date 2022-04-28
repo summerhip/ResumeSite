@@ -6,7 +6,7 @@
     width: 100%;
     text-align: center;
     z-index: 1;
-    background: #edeaea;
+    background: #f5cac2;
     opacity: 90%;
   }
   
@@ -23,13 +23,13 @@
   }
   
   .navigation li a {
-    color: black;
+    color: #141850;
     text-align: center;
     text-decoration: none;
   }
   
   .navigation li a:hover {
-    background-color: black;
+    background-color: #303179;
     color: white;
   }
 

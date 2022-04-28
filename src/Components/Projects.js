@@ -5,7 +5,7 @@ export function Projects() {
     return (
         <div id='projects'>
             <ScrollAnimation animateIn='bounce' initiallyVisible={true} >
-              <h2>Projects</h2>
+              <h1>Projects</h1>
             </ScrollAnimation>
             <h4>Designed a Screen Sharing Web Application Using Django, Python, and HTML</h4>
             <ul>

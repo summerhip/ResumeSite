@@ -19,8 +19,16 @@
     text-align: justify;
 }
 
+#about .aboutHeader {
+  color: #303179;
+}
+
 #about a {
-    color: black;
+    color: #303179;
+}
+
+#about .h1 {
+  color: #ed7966;
 }
 
 @media only screen and (max-width: 731px) {

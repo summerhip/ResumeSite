@@ -5,15 +5,17 @@ import ScrollAnimation from 'react-animate-on-scroll';
 export function About() {
     return (
         <div id='about'>
-            <ScrollAnimation animateIn='bounce' initiallyVisible={true} >
-                <h1>Summer Shipp</h1>
-            </ScrollAnimation>
-            <p>
-                <FaLocationArrow /> Fairfax, Virginia
-                <br />
-                <FaMailBulk /> <a href='mailto: summerrshipp@gmail.com'>summerrshipp@gmail.com</a>
-                <br /><br />
-            </p>
+            <div className='aboutHeader'>
+                <ScrollAnimation animateIn='bounce' initiallyVisible={true} >
+                    <h1>Summer Shipp</h1>
+                </ScrollAnimation>
+                <p>
+                    <FaLocationArrow /> Fairfax, Virginia
+                    <br />
+                    <FaMailBulk /> <a href='mailto: summerrshipp@gmail.com'>summerrshipp@gmail.com</a>
+                    <br /><br />
+                </p>
+            </div>
             <img src={require('./grad.jpg')} className="myPic" alt='Graduation' />
             <div class='aboutInfo'>
                 <p>

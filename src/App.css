@@ -8,11 +8,12 @@
 }
 
 body {
-  background: #edeaea;
-  color: black;
+  /* background: #edeaea; */
+  background-color: #fae5df;
   font-family: 'Space Mono', sans-serif;
   margin-bottom: 0;
   padding-bottom: 0;
+  color: #141850;
 }
 
 .content {
@@ -28,9 +29,12 @@ footer {
   text-align: center;
   font-size: smaller;
   padding: 20% 0;
-  background-color: gray;
+  background-color: #303179;
   color: white;
   opacity: 90%;
+}
+footer a {
+  color: white;
 }
 
 h1 {
@@ -46,3 +50,6 @@ h1 {
   padding-bottom: 20%;
 }
 
+h1 {
+  color: #ed7966;
+}
