@@ -1,17 +1,20 @@
 import './App.css';
-import { NavBar } from './NavBar.js';
-import { About }  from './About.js';
-import { Education } from './Education.js';
-import { Experience } from './Experience.js';
-import { Skills } from './Skills.js';
-import { Projects } from './Projects.js';
+import { NavBar } from './Components/NavBar.js';
+import { About }  from './Components/About.js';
+import { Education } from './Components/Education.js';
+import { Experience } from './Components/Experience.js';
+import { Skills } from './Components/Skills.js';
+import { Projects } from './Components/Projects.js';
+import { FaLinkedin } from 'react-icons/fa';
 
 //form somewhere??
 //linkedin link
 //include samples of projs???
 //smooth scroll????
 
+
 function App() {
+
   return (
     <div className="App">
 
@@ -20,7 +23,7 @@ function App() {
       <div className='content'>
 
         <About />
-
+        
         <hr />
 
         <Education />
@@ -36,13 +39,18 @@ function App() {
         <hr />
 
         <Projects />
-
-        <hr />
       
       </div>
 
-      <footer>Thank you for reading!</footer>
-
+      <footer>
+        Thanks for reading!
+        <br />
+        Lets connect: 
+        <br />
+        <a href='https://www.linkedin.com/in/summerhip/'>
+            <FaLinkedin size='25px'/>
+        </a>
+      </footer>
     </div>
   );
 }
