@@ -13,7 +13,6 @@ export function Projects() {
               <li>Focuses on simplicity and ease of use when compared to similar applications</li>
               <li>Worked in a group of 3</li>
               <li>Project details: <a href='https://docs.google.com/document/d/1WZ_1q-5pGW6l4CO-I_R3567WF7Vlp10Cok3qDWh5FW0/edit' target='_blank' rel="noreferrer">here</a></li>
-              <li>Code available upon request</li>
             </ul>
 
             <h4>Implemented Network Simulator Using Java</h4>
@@ -23,7 +22,6 @@ export function Projects() {
               <li>Used algorithm analysis to create a 100 node graph with 25% connection probability
         in under one minute</li>
               <li>Project details <a href='https://github.com/gildir/CS310_p4_Fall19' target='_blank' rel="noreferrer">here</a></li>
-              <li>Code available upon request</li>
             </ul>
 
             <h4>Designed a Streaming Service Database using SQL</h4>
@@ -33,7 +31,6 @@ export function Projects() {
                 <li>Created database using SQL</li>
                 <li>Constructed complex queries using SQL</li>
                 <li>ER diagram: <a href = 'https://docs.google.com/document/d/1lHP_GJfNUFH0I57UO-pPDuVeDBqLOavWpPGDlaMqaXk/edit?usp=sharing' target='_blank' rel="noreferrer">here</a></li>
-                <li>Code available upon request</li>
             </ul>
           </div>
 

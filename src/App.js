@@ -6,11 +6,8 @@ import { Experience } from './Components/Experience.js';
 import { Skills } from './Components/Skills.js';
 import { Projects } from './Components/Projects.js';
 import { FaLinkedin } from 'react-icons/fa';
+import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
-//form somewhere??
-//linkedin link
-//include samples of projs???
-//smooth scroll????
 
 
 function App() {
@@ -22,23 +19,27 @@ function App() {
 
       <div className='content'>
 
-        <About />
-        
-        <hr />
+        <ParallaxProvider>
+          <Parallax scale={[1.0, 0.5, 'easeInQuad']}>
+            <About />
+          </Parallax>
 
-        <Education />
+          <Parallax scale={[1.0, 0.5, 'easeInQuad']}>
+            <Education />
+          </Parallax>
 
-        <hr />
+          <Parallax scale={[1.0, 0.5, 'easeInQuad']} >
+            <Experience />
+          </Parallax>
 
-        <Experience />
+          <Parallax scale={[1.0, 0.5, 'easeInQuad']} >
+            <Skills />
+          </Parallax>
 
-        <hr />
-
-        <Skills />
-
-        <hr />
-
-        <Projects />
+          <Parallax scale={[1.0, 0.5, 'easeInQuad']} >
+            <Projects />
+          </Parallax>
+        </ParallaxProvider>
       
       </div>
 
