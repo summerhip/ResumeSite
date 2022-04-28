@@ -10,6 +10,8 @@ import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 import { HashLink as Link } from 'react-router-hash-link';
 import { FaArrowAltCircleUp } from 'react-icons/fa';
 
+//make navbar hover better
+
 function App() {
 
   return (

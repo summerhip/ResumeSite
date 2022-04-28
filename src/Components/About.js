@@ -22,8 +22,8 @@ export function About() {
                     Hi! I am a recent college graduate with a passion for solving problems and creativity.
                     That's why software engineering is fun to me. I enjoy combining my technical back-end 
                     skills with creative front-end skills to solve problems and create user-friendly interfaces.
-                    I am looking for a company to continue to learn and grow my software engineering skills at.
-                    I have created this website using ReactJS to help you learn a little more  about me!
+                    I am looking for a company to continue to grow my software engineering skills at. I have 
+                    created this website using ReactJS to help you learn a little more  about me!
                 </p>
             </div>
         </div>
