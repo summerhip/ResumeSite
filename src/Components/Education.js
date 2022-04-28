@@ -8,7 +8,7 @@ export function Education() {
             <h1>Education</h1>
             </ScrollAnimation>
 
-            <img src='https://www.spplus.com/wp-content/uploads/2015/08/george-mason-website.jpg' className='campus' alt='gmu campus' />
+            {/* <img src='https://www.spplus.com/wp-content/uploads/2015/08/george-mason-website.jpg' className='campus' alt='gmu campus' /> */}
 
             <h4>George Mason University <span class="date">January 2018 - December 2021</span></h4>
             <p>
