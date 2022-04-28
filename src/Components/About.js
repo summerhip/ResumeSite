@@ -1,5 +1,5 @@
 import './About.css';
-import { FaArrowDown, FaLocationArrow, FaMailBulk } from 'react-icons/fa';
+import { FaLocationArrow, FaMailBulk } from 'react-icons/fa';
 import ScrollAnimation from 'react-animate-on-scroll';
 
 export function About() {
@@ -9,7 +9,7 @@ export function About() {
                 <ScrollAnimation animateIn='bounce' initiallyVisible={true} >
                     <h1>Summer Shipp</h1>
                 </ScrollAnimation>
-                <p>
+                <p className='locEmail'>
                     <FaLocationArrow /> Fairfax, Virginia
                     <br />
                     <FaMailBulk /> <a href='mailto: summerrshipp@gmail.com'>summerrshipp@gmail.com</a>
@@ -26,15 +26,6 @@ export function About() {
                     I have created this website using ReactJS to help you learn a little more  about me!
                 </p>
             </div>
-            <br /><br />
-            <h3>
-            {/* <a href='#education' className='scroll'>SCROLL!</a> */}
-            <a href='#education'>
-                SCROLL!
-            </a>
-            <br />
-            <FaArrowDown />
-            </h3>
         </div>
     );
 }

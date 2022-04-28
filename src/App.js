@@ -5,11 +5,10 @@ import { Education } from './Components/Education.js';
 import { Experience } from './Components/Experience.js';
 import { Skills } from './Components/Skills.js';
 import { Projects } from './Components/Projects.js';
-import { FaLinkedin } from 'react-icons/fa';
+import { Footer } from './Components/Footer.js';
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
-
-//scroll to off
-//create footer component
+import { HashLink as Link } from 'react-router-hash-link';
+import { FaArrowAltCircleUp } from 'react-icons/fa';
 
 function App() {
 
@@ -44,15 +43,12 @@ function App() {
       
       </div>
 
-      <footer>
-        Thanks for reading!
-        <br />
-        Lets connect: 
-        <br />
-        <a href='https://www.linkedin.com/in/summerhip/'>
-            <FaLinkedin size='25px'/>
-        </a>
-      </footer>
+      <Link smooth to='#top' className='arrowTop'>
+        <FaArrowAltCircleUp size='50px'/>
+      </Link>
+
+    <Footer />
+
     </div>
   );
 }
