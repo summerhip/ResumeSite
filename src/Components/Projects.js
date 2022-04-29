@@ -21,7 +21,7 @@ export function Projects() {
               <li>Implemented a hash table class to support network routing and Djikstra's Algorithm</li>
               <li>Used algorithm analysis to create a 100 node graph with 25% connection probability
         in under one minute</li>
-              <li>Project details <a href='https://github.com/gildir/CS310_p4_Fall19' target='_blank' rel="noreferrer">here</a></li>
+              <li>Project details <a href='https://github.com/gildir/CS310_p4_Fall19' target='_blank' rel="noreferrer" >here</a></li>
             </ul>
 
             <h4>Designed a Streaming Service Database using SQL</h4>

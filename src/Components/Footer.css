@@ -1,17 +1,18 @@
 footer {
+    font-family: 'Space Mono', monospace;
     text-align: center;
-    font-size: smaller;
-    padding: 20% 0;
+    font-size: 65%;
+    padding: 15% 0;
     background-color: #303179;
-    color: white;
+    color: #fae5df;
     opacity: 90%;
     border-top-left-radius: 50% 40%;
     border-top-right-radius: 50% 40%;
 }
 footer a {
-    color: white;
+    color: #ed7966;
 }
 
 footer a:hover {
-    color: #ed7966;
+    color: #a3a4d4;
 }

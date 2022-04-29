@@ -15,5 +15,13 @@ export function Footer() {
                <FaGithubSquare size='25px' />
             </a>
       </footer>
+
+      /*  <p className='locEmail'>
+                    <FaLocationArrow /> Fairfax, Virginia
+                    <br />
+                    <FaMailBulk /> <a href='mailto: summerrshipp@gmail.com'>summerrshipp@gmail.com</a>
+                    <br /><br />
+                </p> */
+
     );
 }

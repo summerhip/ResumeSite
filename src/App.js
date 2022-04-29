@@ -7,10 +7,11 @@ import { Skills } from './Components/Skills.js';
 import { Projects } from './Components/Projects.js';
 import { Footer } from './Components/Footer.js';
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
-import { HashLink as Link } from 'react-router-hash-link';
-import { FaArrowAltCircleUp } from 'react-icons/fa';
+import { FaMailBulk } from 'react-icons/fa';
 
-//make navbar hover better
+//add logo to navbar
+//add emain vertically sticky to right
+
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
     <div className="App">
 
       <NavBar />
+
+      {/* <div className='vertical'>
+        <FaMailBulk/><a href='mailto: summerrshipp@gmail.com'>summerrshipp@gmail.com</a>
+      </div> */}
 
       <div className='content'>
 
@@ -44,10 +49,6 @@ function App() {
         </ParallaxProvider>
       
       </div>
-
-      <Link smooth to='#top' className='arrowTop'>
-        <FaArrowAltCircleUp size='50px'/>
-      </Link>
 
     <Footer />
 
