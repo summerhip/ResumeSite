@@ -25,6 +25,7 @@
 #about h1 {
   font-size: 300%;
   color: #ed7966;
+  min-width: 475px;
 }
 
 #about .aboutHeader h5 {
@@ -41,3 +42,10 @@
       height: 900px !important;
     }
   }
+
+  @media only screen and (max-width: 475px) {
+    #about h1 {
+       font-size: 200% !important;
+    }
+  }
+  
