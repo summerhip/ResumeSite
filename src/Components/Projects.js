@@ -30,6 +30,7 @@ export function Projects() {
                 <li>Converted to relational schema</li>
                 <li>Created database using SQL</li>
                 <li>Constructed complex queries using SQL</li>
+                <li>Entities such as: members, profiles, movies, genres, and actors</li>
                 <li>ER diagram: <a href = 'https://docs.google.com/document/d/1lHP_GJfNUFH0I57UO-pPDuVeDBqLOavWpPGDlaMqaXk/edit?usp=sharing' target='_blank' rel="noreferrer">here</a></li>
             </ul>
           </div>

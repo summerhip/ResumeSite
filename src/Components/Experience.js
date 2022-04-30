@@ -12,6 +12,11 @@ export function Experience() {
             <ul>
               <li>Learned strong communication skills and how to explain complex concepts to peers</li>
             </ul>
+            <h4>By Shear Design Salon and Spa <span class="date">April 2018 - Present</span></h4>
+            <p>Part-Time Front Desk Receptionist and Shampoo Technician</p>
+            <ul>
+              <li>Helped to run the salon by dealing with scheduling, products, and client needs</li>
+            </ul>
         </div>
     );
 }

@@ -9,10 +9,10 @@ export function Footer() {
             Lets connect: 
             <br />
             <a href='https://www.linkedin.com/in/summerhip/'>
-                <FaLinkedin size='25px' />
+                <FaLinkedin size='30px' />
             </a>
             <a href='https://github.com/summerhip'>
-               <FaGithubSquare size='25px' />
+                <FaGithubSquare size='30px' />
             </a>
       </footer>
 

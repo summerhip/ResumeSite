@@ -19,10 +19,9 @@ function App() {
     <div className="App">
 
       <NavBar />
-
-      {/* <div className='vertical'>
-        <FaMailBulk/><a href='mailto: summerrshipp@gmail.com'>summerrshipp@gmail.com</a>
-      </div> */}
+      <div className='vertical'>
+        <a href='mailto: summerrshipp@gmail.com'><FaMailBulk size='25px'/>summerrshipp@gmail.com</a>
+      </div>
 
       <div className='content'>
 
