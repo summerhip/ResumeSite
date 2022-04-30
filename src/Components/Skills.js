@@ -9,9 +9,9 @@ export function Skills() {
               <h1>Skills</h1>
             </ScrollAnimation>
             <p>
-                <strong>Languages:</strong> C, C++, Python, Java, HTML, CSS, LaTeX, SQL, JavaScript
+                <strong>Languages:</strong> Python, Java, HTML, CSS, SQL, JavaScript, C, C++, LaTeX
                 <br /><br />
-                <strong>Tools and Frameworks:</strong> Git, Django, React, Command Line
+                <strong>Tools and Frameworks:</strong> Git, Django, React, Command Line, DevTools
             </p>
         </div>
     );

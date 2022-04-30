@@ -20,7 +20,7 @@ function App() {
 
       <NavBar />
       <div className='vertical'>
-        <a href='mailto: summerrshipp@gmail.com'><FaMailBulk size='25px'/>summerrshipp@gmail.com</a>
+        <a href='mailto: summerrshipp@gmail.com'><FaMailBulk size='25px'/>summerrshipp@gmail.com ------</a>
       </div>
 
       <div className='content'>
