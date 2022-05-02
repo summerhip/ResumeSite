@@ -1,11 +1,13 @@
-/* .simGif {
+/* .projPic {
     float: right;
     position: relative;
     right: 10px;
     top: 7px;
     display: inline-block;
-    height: 230px;
-    width: auto;
+    width: 15%;
+    height: auto;
+    position: relative;
+    top: 20px;
 } */
 
 #projects a .projBlock {
