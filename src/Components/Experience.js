@@ -8,14 +8,14 @@ export function Experience() {
               <h1>Experience</h1>
             </ScrollAnimation>
             <h4>George Mason University Tutoring Center <span class="date">January 2018 - January 2020</span></h4>
-            <p>Tutored peers in Programming, Linear Algebra, Calculus I, II, and III</p>
+            <p>Motivated struggling students with my effective communication and problem solving skills to teach complex concepts</p>
             <ul>
               <li>Learned strong communication skills and how to explain complex concepts to peers</li>
             </ul>
             <h4>By Shear Design Salon and Spa <span class="date">April 2018 - Present</span></h4>
             <p>Part-Time Front Desk Receptionist and Shampoo Technician</p>
             <ul>
-              <li>Helped to run the salon by dealing with scheduling, products, and client needs</li>
+              <li>Provided customer oversight, enabled prompt service, and ensured client satisfaction</li>
             </ul>
         </div>
     );
