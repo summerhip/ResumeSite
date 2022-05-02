@@ -9,8 +9,8 @@ import { Footer } from './Components/Footer.js';
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
 //fix smooth scroll
-//fix project pic in mobile
-//get pictures to work??
+//fix in mobile
+//put pictures in own folder
 
 
 function App() {
@@ -19,8 +19,6 @@ function App() {
     <div className="App">
 
       <NavBar />
-
-      <div className='vertical'></div>
 
       <div className='content'>
 

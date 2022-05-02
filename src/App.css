@@ -33,6 +33,7 @@ body {
   padding: 15% 2%;
 }
 
+
 h4 {
   color: #303179;
 }
@@ -57,11 +58,15 @@ h1 {
   width: 20%;
 }
 
-@media only screen and (max-width: 731px) {
+@media only screen and (max-width: 475px) {
+  p, li {
+    font-size:smaller !important;
+  }
   .date {
-     float: left !important;
+     display: static !important;
   }
 }
+
 
 @keyframes fadeIn {
   0% {opacity:0;}

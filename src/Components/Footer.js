@@ -9,13 +9,13 @@ export function Footer() {
             <br />
             Lets connect: 
             <br />
-            <a href='https://www.linkedin.com/in/summerhip/'>
+            <a href='https://www.linkedin.com/in/summerhip/' target='_blank' rel='noreferrer'>
                 <FaLinkedin size='30px' />
             </a>  
-            <a href='https://github.com/summerhip'>
+            <a href='https://github.com/summerhip' target='_blank' rel='noreferrer'>
                 <FaGithubSquare size='30px' />
             </a>  
-            <a href='mailto: summerrshipp@gmail.com'>
+            <a href='mailto: summerrshipp@gmail.com' target='_blank' rel='noreferrer'>
                 <RiMailFill size='30px'/>
             </a>
             <br />

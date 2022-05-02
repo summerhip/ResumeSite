@@ -31,7 +31,10 @@
 }
 
 @media only screen and (max-width: 475px) {
-    .sumGUI {
+    /* .sumGUI {
        position: static !important;
+    } */
+    #projects a .projBlock {
+        width: 100% !important;
     }
   }
