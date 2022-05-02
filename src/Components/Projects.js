@@ -7,6 +7,8 @@ export function Projects() {
             <ScrollAnimation animateIn='bounce' initiallyVisible={true} >
               <h1>Projects</h1>
             </ScrollAnimation>
+
+            {/* <img src='../QSscreen.png' className='simGif' alt='quickshare screenshot'/> */}
             <h4>Designed a Screen Sharing Web Application Using Django, Python, and HTML</h4>
             <ul>
               <li>Simple, quick, and easy application that allows users to share their screen with friends</li>
@@ -15,15 +17,16 @@ export function Projects() {
               <li>Project details: <a href='https://docs.google.com/document/d/1WZ_1q-5pGW6l4CO-I_R3567WF7Vlp10Cok3qDWh5FW0/edit' target='_blank' rel="noreferrer">here</a></li>
             </ul>
 
+            <img src='https://raw.githubusercontent.com/gildir/CS310_p4_Fall19/master/docs/animated.gif' className='simGif' alt='sim screenshot'/>
             <h4>Implemented Network Simulator Using Java</h4>
             <ul>
               <li>Implemented a directed graph class using an adjacency list to support a network structure</li>
               <li>Implemented a hash table class to support network routing and Djikstra's Algorithm</li>
-              <li>Used algorithm analysis to create a 100 node graph with 25% connection probability
-        in under one minute</li>
+              <li>Used algorithm analysis to create a 100 node graph with 25% connection probability in under one minute</li>
               <li>Project details <a href='https://github.com/gildir/CS310_p4_Fall19' target='_blank' rel="noreferrer" >here</a></li>
             </ul>
 
+            {/* <img src='../ERsql.png' className='simGif' alt='ER screenshot'/> */}
             <h4>Designed a Streaming Service Database using SQL</h4>
             <ul>
                 <li>Created ER diagram based on given limited constraints and personal assumptions</li>

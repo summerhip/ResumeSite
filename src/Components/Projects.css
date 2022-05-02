@@ -1,3 +1,11 @@
-/* #projects ul {
+#projects ul {
     width: 75%;
-} */
+    margin-bottom: 10%;
+}
+
+.simGif {
+    display: inline-block;
+    height: 270px;
+    width: auto;
+    float: right;
+}

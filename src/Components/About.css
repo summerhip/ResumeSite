@@ -6,20 +6,20 @@
 #about .aboutInfo {
     bottom: 15px;
     max-width: 75%;
-    animation: fadeIn linear 3s;
-    -webkit-animation: fadeIn linear 3s;
-    -moz-animation: fadeIn linear 3s;
-    -o-animation: fadeIn linear 3s;
-    -ms-animation: fadeIn linear 3s;
+    animation: fadeIn linear 2s;
+    -webkit-animation: fadeIn linear 2s;
+    -moz-animation: fadeIn linear 2s;
+    -o-animation: fadeIn linear 2s;
+    -ms-animation: fadeIn linear 2s;
 }
 
 #about .aboutHeader {
   color: #303179;
-  animation: fadeIn linear 3s;
-  -webkit-animation: fadeIn linear 3s;
-  -moz-animation: fadeIn linear 3s;
-  -o-animation: fadeIn linear 3s;
-  -ms-animation: fadeIn linear 3s;
+  animation: fadeIn linear 2s;
+  -webkit-animation: fadeIn linear 2s;
+  -moz-animation: fadeIn linear 2s;
+  -o-animation: fadeIn linear 2s;
+  -ms-animation: fadeIn linear 2s;
 }
 
 #about h1 {
