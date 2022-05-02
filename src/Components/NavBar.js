@@ -17,15 +17,16 @@ export function NavBar() {
                 <div className='burger'>
                     <button onClick={toggleBurger}><GiHamburgerMenu size='25px'/></button>
                     <div className={`burgerNav ${burgerOpen ? ' showMenu' : ''}`}>
-                        <li ><Link smooth to='#projects' onClick={toggleBurger}>Projects</Link></li>
-                        <br />
-                        <li ><Link smooth to='#skills' onClick={toggleBurger}>Skills</Link></li>
-                        <br />
-                        <li ><Link smooth to='#experience' onClick={toggleBurger}>Experience</Link></li>
+                        <br /><br />
+                        <li ><Link smooth to='#top' onClick={toggleBurger}>About</Link></li>
                         <br />
                         <li ><Link smooth to='#education' onClick={toggleBurger}>Education</Link></li>
                         <br />
-                        <li ><Link smooth to='#top' onClick={toggleBurger}>About</Link></li>
+                        <li ><Link smooth to='#experience' onClick={toggleBurger}>Experience</Link></li>
+                        <br />
+                        <li ><Link smooth to='#skills' onClick={toggleBurger}>Skills</Link></li>
+                        <br />
+                        <li ><Link smooth to='#projects' onClick={toggleBurger}>Projects</Link></li>
                     </div>
                 </div>
                 <div className='regMenu'>
