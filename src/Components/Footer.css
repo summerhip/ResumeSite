@@ -2,7 +2,7 @@ footer {
     font-family: 'Space Mono', monospace;
     text-align: center;
     font-size: 65%;
-    padding: 15% 0;
+    padding: 10% 0;
     background-color: #303179;
     color: #fae5df;
     opacity: 90%;
@@ -15,4 +15,10 @@ footer a {
 
 footer a:hover {
     color: #a3a4d4;
+}
+
+.byeGif {
+    height: 150px;
+    width: auto;
+    border-radius: 25px;
 }

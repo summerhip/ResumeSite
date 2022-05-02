@@ -1,11 +1,37 @@
-#projects ul {
+/* .simGif {
+    float: right;
+    position: relative;
+    right: 10px;
+    top: 7px;
+    display: inline-block;
+    height: 230px;
+    width: auto;
+} */
+
+#projects a .projBlock {
+    border: 2px solid #141850;
+    margin: 2%;
+    border-radius: 30px;
+    padding-left: 10px;
     width: 75%;
-    margin-bottom: 10%;
+    display: inline-block;
 }
 
-.simGif {
-    display: inline-block;
-    height: 270px;
-    width: auto;
+#projects a {
+    text-decoration: none;
+    color: #141850;
+}
+
+#projects a .projBlock:hover {
+    background-color: #f5cac2;
+}
+
+#projects a .right {
     float: right;
 }
+
+@media only screen and (max-width: 475px) {
+    .sumGUI {
+       position: static !important;
+    }
+  }

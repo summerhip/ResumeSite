@@ -10,7 +10,7 @@ export function Education() {
 
             <h4>George Mason University <span class="date">January 2018 - December 2021</span></h4>
             <p>
-                B.S. in computer science and a minor in math
+                B.S. in Computer Science and a Minor in Math
             </p>
             <ul>
                 <li>GPA: 3.67</li>

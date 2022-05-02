@@ -7,10 +7,10 @@ import { Skills } from './Components/Skills.js';
 import { Projects } from './Components/Projects.js';
 import { Footer } from './Components/Footer.js';
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
-import { FaMailBulk } from 'react-icons/fa';
 
-//add logo to navbar
-//add emain vertically sticky to right
+//fix smooth scroll
+//fix project pic in mobile
+//get pictures to work??
 
 
 function App() {
@@ -19,9 +19,8 @@ function App() {
     <div className="App">
 
       <NavBar />
-{/*       <div className='vertical'>
-        <a href='mailto: summerrshipp@gmail.com'><FaMailBulk size='25px'/>summerrshipp@gmail.com</a>
-      </div> */}
+
+      <div className='vertical'></div>
 
       <div className='content'>
 

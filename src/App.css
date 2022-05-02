@@ -16,25 +16,6 @@ body {
   font-size: 20px;
 }
 
-.vertical a {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  writing-mode: vertical-rl;
-  text-orientation: mixed;
-  font-family: 'Space Mono', monospace;
-  text-decoration: none;
-  margin: 0 2% 5% 0;
-  color: #ed7966;
-  text-decoration: none;
-  font-size: 65%;
-  z-index: 10;
-}
-
-.vertical a:hover {
-  color: rgb(118, 120, 226);
-}
-
 .content {
   padding: 3%;
 }
@@ -49,7 +30,11 @@ body {
 }
 
 #education, #experience, #skills, #projects {
-  padding: 20% 2%;
+  padding: 15% 2%;
+}
+
+h4 {
+  color: #303179;
 }
 
 h1 {

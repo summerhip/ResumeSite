@@ -4,6 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 export function Experience() {
     return (
         <div id='experience'>
+          <br />
             <ScrollAnimation animateIn='bounce' initiallyVisible={true} >
               <h1>Experience</h1>
             </ScrollAnimation>
@@ -12,6 +13,7 @@ export function Experience() {
             <ul>
               <li>Motivated struggling students with my effective communication and problem solving skills to teach complex concepts</li>
             </ul>
+            <hr />
             <h4>By Shear Design Salon and Spa <span class="date">April 2018 - Present</span></h4>
             <p>Part-Time Front Desk Receptionist and Shampoo Technician</p>
             <ul>
