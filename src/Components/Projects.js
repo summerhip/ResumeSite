@@ -8,7 +8,6 @@ export function Projects() {
               <h1>Projects</h1>
             </ScrollAnimation>
 
-            {/* <img src={require('../QSscreen.png')} className='projPic' alt='quickshare screenshot'/> */}
             <a href='https://docs.google.com/document/d/1WZ_1q-5pGW6l4CO-I_R3567WF7Vlp10Cok3qDWh5FW0/edit' target='_blank' rel="noreferrer">
               <div className='projBlock'>
                 <h4>Designed a Screen Sharing Web Application Using Django, Python, and HTML</h4>
@@ -19,8 +18,9 @@ export function Projects() {
                 </ul>
               </div>
             </a>
+            <img src={require('../QSscreen.png')} className='projPic right' alt='quickshare screenshot'/>
 
-            <a href='https://github.com/gildir/CS310_p4_Fall19' target='_blank' rel="noreferrer" >
+             <a href='https://github.com/gildir/CS310_p4_Fall19' target='_blank' rel="noreferrer" >
               <div className='projBlock right'>
                 <h4>Implemented Network Simulator Using Java</h4>
                 <ul>
@@ -30,9 +30,8 @@ export function Projects() {
                 </ul>
               </div>
             </a>
-            {/* <img src='https://raw.githubusercontent.com/gildir/CS310_p4_Fall19/master/docs/animated.gif' className='projPic' alt='sim screenshot'/> */}
+            <img src='https://raw.githubusercontent.com/gildir/CS310_p4_Fall19/master/docs/animated.gif' className='projPic' alt='sim screenshot'/>
 
-            {/* <img src={require('../ERsql.png')} className='projPic' alt='ER screenshot'/> */}
             <a href = 'https://docs.google.com/document/d/1lHP_GJfNUFH0I57UO-pPDuVeDBqLOavWpPGDlaMqaXk/edit?usp=sharing' target='_blank' rel="noreferrer">
               <div className='projBlock'>
                 <h4>Designed a Streaming Service Database using SQL</h4>
@@ -45,6 +44,7 @@ export function Projects() {
                 </ul>
               </div>
             </a>
+            <img src={require('../ERsql.png')} className='projPic right' alt='ER screenshot'/>
 
             <a href='https://github.com/yig/graphics101-airbrush' target='_blank' rel='noreferrer'>
               <div className='projBlock right'>
@@ -55,7 +55,7 @@ export function Projects() {
                 </ul>
               </div>
             </a>
-            {/* <img src='https://raw.githubusercontent.com/yig/graphics101-airbrush/master/docs/images/beach.png' className='projPic' alt='paint screenshot' /> */}
+            <img src='https://raw.githubusercontent.com/yig/graphics101-airbrush/master/docs/images/beach.png' className='projPic' alt='paint screenshot' />
           </div>
     );
 }

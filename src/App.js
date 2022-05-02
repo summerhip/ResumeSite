@@ -8,10 +8,6 @@ import { Projects } from './Components/Projects.js';
 import { Footer } from './Components/Footer.js';
 import { Parallax, ParallaxProvider } from 'react-scroll-parallax';
 
-//fix smooth scroll
-//fix in mobile
-//put pictures in own folder
-
 
 function App() {
 
