@@ -2,7 +2,7 @@ footer {
     font-family: 'Space Mono', monospace;
     text-align: center;
     font-size: 65%;
-    padding: 10% 0;
+    padding: 10% 30%;
     background-color: #303179;
     color: #fae5df;
     opacity: 90%;
@@ -22,3 +22,4 @@ footer a:hover {
     width: auto;
     border-radius: 25px;
 }
+

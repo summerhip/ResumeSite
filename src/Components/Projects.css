@@ -3,7 +3,6 @@
     position: relative;
     right: 10px;
     top: 60px;
-    display: inline-block;
     width: 25%;
     height: auto;
     border-radius: 10px;
@@ -31,5 +30,5 @@
 }
 
 #projects {
-    padding-bottom: 140%;
+    padding-bottom: 20%;
 }
