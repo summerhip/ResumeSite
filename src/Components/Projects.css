@@ -1,20 +1,27 @@
-#projects .projPic {
-    float: right;
-    position: relative;
-    right: 10px;
-    top: 65px;
-    width: 25%;
-    max-height: 220px;
+#projects .projContainer .projPic {
+    position: absolute;
+    right: 18%;
+    top: 8%;
+    max-height: 250px;
+    width: 30%;
     opacity: 0.85;
     border-radius: 5px;
+    z-index: -1;
 }
 
-#projects a .projBlock {
-    margin: 5% 0;
-    border-radius: 30px;
-    padding-left: 10px;
-    width: 70%;
+#projects .projContainer {
+    position: relative;
+    left:10%;
+    margin-bottom: 15%;
+}
+
+#projects .projContainer a .projBlock {
+    border-radius: 10px;
+    padding: 10px;
+    width: 60%;
+    background-color: #f5cac2;
     display: inline-block;
+    z-index: 1;
 }
 
 #projects a {
@@ -23,23 +30,27 @@
 }
 
 #projects a .projBlock:hover {
-    background-color: #f5cac2;
+    background-color: #ed7966;
 }
 
-.right {
+#projects h4 {
+    font-size: larger;
+}
+
+.clickMe {
     float: right;
 }
 
-#projects {
-    padding-bottom: 20%;
-}
-
-@media only screen and (max-width: 731px) {
-    #projects .projPic {
+@media only screen and (max-width: 800px) {
+    #projects .projContainer .projPic {
         display: none;
     }
-
-    #projects a .projBlock {
+    #projects .projContainer a .projBlock {
         width: 100%;
+        position: static;
+    }
+    #projects .projContainer {
+        margin-bottom: 2%;
+        left: 0;
     }
   }

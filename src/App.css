@@ -14,11 +14,10 @@ body {
   margin-bottom: 0;
   padding-bottom: 0;
   color: #141850;
-  font-size: 20px;
 }
 
 .content {
-  padding: 3%;
+  padding: 5%;
 }
 
 .date {
@@ -32,6 +31,10 @@ body {
 
 #education, #experience, #skills, #projects {
   padding: 15% 2%;
+}
+
+#education h1, #experience h1, #skills h1, #projects h1 {
+  margin-bottom: 5%;
 }
 
 h4 {

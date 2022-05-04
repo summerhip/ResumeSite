@@ -11,7 +11,7 @@ export function Skills() {
             <p>
                 <h4>Languages:</h4> Python, Java, HTML, CSS, SQL, JavaScript, C, C++, LaTeX
                 <br /><br /><hr />
-                <h4>Tools and Frameworks:</h4> Git, Django, React, Command Line, Chrome DevTools
+                <h4>Tools and Frameworks:</h4> Git, Django, React, Command Line, DevTools
             </p>
         </div>
     );
