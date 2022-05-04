@@ -61,6 +61,7 @@ h1 {
   width: 20%;
 }
 
+
 @media only screen and (max-width: 475px) {
   p, li {
     font-size:smaller !important;

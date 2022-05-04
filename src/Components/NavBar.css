@@ -8,7 +8,7 @@
   z-index: 10;
   background: #f5cac2;
   opacity: 90%;
-  font-size: 90%;
+  font-size: 80%;
   animation: 1s ease-out 0s 1 slideInFromLeft;
 }
 
@@ -31,7 +31,6 @@
 
 .navigation li {
   list-style-type: none;
-  display: inline-block;
   padding: 2%;
   margin: 0;
   float: right;
@@ -51,6 +50,7 @@
   font-family: 'Space Mono', monospace;
   position: fixed;
   top: 0;
+  font-size: larger;
   z-index: 20;
   border: 1px solid #303179;
   border-radius: 25px;
