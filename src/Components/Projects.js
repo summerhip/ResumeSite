@@ -18,7 +18,7 @@ export function Projects() {
                 </ul>
               </div>
             </a>
-            <img src={require('../QSscreen.png')} className='projPic right' alt='quickshare screenshot'/>
+            <img src={require('../Pictures/QSscreen.png')} className='projPic right' alt='quickshare screenshot'/>
 
              <a href='https://github.com/gildir/CS310_p4_Fall19' target='_blank' rel="noreferrer" >
               <div className='projBlock right'>
@@ -44,7 +44,7 @@ export function Projects() {
                 </ul>
               </div>
             </a>
-            <img src={require('../ERsql.png')} className='projPic right' alt='ER screenshot'/>
+            <img src={require('../Pictures/SQLscreen.png')} className='projPic right' alt='ER screenshot'/>
 
             <a href='https://github.com/yig/graphics101-airbrush' target='_blank' rel='noreferrer'>
               <div className='projBlock right'>

@@ -1,11 +1,12 @@
-.projPic {
+#projects .projPic {
     float: right;
     position: relative;
     right: 10px;
-    top: 60px;
+    top: 65px;
     width: 25%;
-    height: auto;
-    border-radius: 10px;
+    max-height: 220px;
+    opacity: 0.85;
+    border-radius: 5px;
 }
 
 #projects a .projBlock {
@@ -32,3 +33,13 @@
 #projects {
     padding-bottom: 20%;
 }
+
+@media only screen and (max-width: 731px) {
+    #projects .projPic {
+        display: none;
+    }
+
+    #projects a .projBlock {
+        width: 100%;
+    }
+  }

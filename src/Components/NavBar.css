@@ -69,6 +69,7 @@
 .navigation .burger {
   display: none;
   padding: 2%;
+  float: right;
 }
 
 .burgerNav {
@@ -91,7 +92,6 @@
 @media only screen and (max-width: 731px) {
   .navigation .burger {
     display: block;
-    float: right;
   }
   .navigation .regMenu {
     display: none;
