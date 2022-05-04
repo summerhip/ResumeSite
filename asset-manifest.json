@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/ResumeSite/static/css/main.f6402569.css",
-    "main.js": "/ResumeSite/static/js/main.b7cccb42.js",
+    "main.css": "/ResumeSite/static/css/main.e8d22f39.css",
+    "main.js": "/ResumeSite/static/js/main.676ce862.js",
     "static/js/787.b3c2866c.chunk.js": "/ResumeSite/static/js/787.b3c2866c.chunk.js",
-    "static/media/QSscreen.png": "/ResumeSite/static/media/QSscreen.10d2b05619970e799f58.png",
-    "static/media/ERsql.png": "/ResumeSite/static/media/ERsql.0e7bf851919f6ff44a19.png",
+    "static/media/SQLscreen.png": "/ResumeSite/static/media/SQLscreen.eaa13dff9185ba63d599.png",
+    "static/media/paintscreen.png": "/ResumeSite/static/media/paintscreen.b529478cf34eaf893047.png",
+    "static/media/QSscreen.png": "/ResumeSite/static/media/QSscreen.35d3153160e3762b38e5.png",
     "index.html": "/ResumeSite/index.html",
-    "main.f6402569.css.map": "/ResumeSite/static/css/main.f6402569.css.map",
-    "main.b7cccb42.js.map": "/ResumeSite/static/js/main.b7cccb42.js.map",
+    "main.e8d22f39.css.map": "/ResumeSite/static/css/main.e8d22f39.css.map",
+    "main.676ce862.js.map": "/ResumeSite/static/js/main.676ce862.js.map",
     "787.b3c2866c.chunk.js.map": "/ResumeSite/static/js/787.b3c2866c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6402569.css",
-    "static/js/main.b7cccb42.js"
+    "static/css/main.e8d22f39.css",
+    "static/js/main.676ce862.js"
   ]
 }
