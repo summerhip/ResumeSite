@@ -76,6 +76,11 @@
   display: none;
 }
 
+.burgerNav li {
+  padding: 0 0 30% 0;
+  font-size: larger;
+}
+
 .burgerNav.showMenu {
   display: block;
 }

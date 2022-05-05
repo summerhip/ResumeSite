@@ -39,6 +39,7 @@ body {
 
 h4 {
   color: #303179;
+  font-size: larger;
 }
 
 h1 {
@@ -61,14 +62,10 @@ h1 {
   width: 20%;
 }
 
-
-@media only screen and (max-width: 475px) {
-  p, li {
-    font-size:smaller !important;
-  }
-  .date {
-     display: static !important;
-  }
+@media only screen and (max-width: 731px) {
+    .date {
+      font-size: small;
+   }
 }
 
 
