@@ -13,7 +13,7 @@ export function Projects() {
               <a href='https://docs.google.com/document/d/1WZ_1q-5pGW6l4CO-I_R3567WF7Vlp10Cok3qDWh5FW0/edit' target='_blank' rel="noreferrer">
                 <div className='projBlock'>
                   <h4>Designed a Screen Sharing Web Application Using Django, Python, and HTML</h4>
-                  Worked in a group of 3 to develop a simple, quick, and easy application that allows users to share their screen with friends
+                  Worked in a group of 3 to develop a simple, quick, and easy application that allows users to share their screen with friends.
                   It focuses on simplicity and ease of use when compared to similar applications.
                   <br /> <HiCursorClick className='clickMe'/>
                 </div>
