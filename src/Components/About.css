@@ -38,11 +38,15 @@
   opacity: 80%;
 }
 
+#about img.name {
+  width: 90%;
+}
+
 @media only screen and (max-width: 475px) {
-  #about h1 {
-      font-size: 200% !important;
-  }
   #about {
     height: 200% !important;
+  }
+  img.name {
+    min-width: 100%;
   }
 }
