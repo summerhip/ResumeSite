@@ -12,7 +12,7 @@ export function NavBar() {
 
     return (
         <div>
-            <a href='' className='logo'>SuMmEr</a>
+            <a href='' className='logo'>SUM</a>
             <ul className='navigation'>
                 <div className='burger'>
                     <button onClick={toggleBurger}><GiHamburgerMenu size='25px'/></button>
