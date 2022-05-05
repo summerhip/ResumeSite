@@ -12,7 +12,7 @@ export function NavBar() {
 
     return (
         <div>
-            <a href='' className='logo'>SUMMER</a>
+            <a href='' className='logo'>SUMMER SHIPP</a>
             <ul className='navigation'>
                 <div className='burger'>
                     <button onClick={toggleBurger}><GiHamburgerMenu size='25px'/></button>

@@ -52,18 +52,22 @@
   top: 0;
   font-size: larger;
   z-index: 20;
-  border: 1px solid #303179;
-  border-radius: 25px;
+  border-radius: 8px;
   margin: 1.5%;
-  width: 77px;
+  width: 144px;
   text-align: center;
   color: #303179;
   text-decoration: none;
-  box-shadow: -5px 5px 5px #303179;
+  animation: 1s ease-out 0s 1 slideInFromLeft;
+  transition:
+      border-top 0.15s linear,
+      border-right 0.15s linear 0.10s,
+      border-bottom 0.15s linear 0.20s,
+      border-left 0.15s linear 0.30s;
 }
 
 .logo:hover {
-  background-color: rgb(48, 49, 121, .25);
+  border: 2px solid #7b7cb3;
 }
 
 .navigation .burger {
