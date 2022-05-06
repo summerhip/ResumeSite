@@ -10,13 +10,13 @@ export function Footer() {
             Lets connect: 
             <br />
             <a href='https://www.linkedin.com/in/summerhip/' target='_blank' rel='noreferrer'>
-                <FaLinkedin size='30px' />
+                <FaLinkedin size='40px' />
             </a>  
             <a href='https://github.com/summerhip' target='_blank' rel='noreferrer'>
-                <FaGithubSquare size='30px' />
+                <FaGithubSquare size='40px' />
             </a>  
             <a href='mailto: summerrshipp@gmail.com' target='_blank' rel='noreferrer'>
-                <RiMailFill size='30px'/>
+                <RiMailFill size='40px'/>
             </a>
             <br />
             <br />

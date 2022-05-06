@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import './NavBar.css';
 import { HashLink as Link } from 'react-router-hash-link';
 import { GiHamburgerMenu } from 'react-icons/gi';
+import { RiSailboatFill } from 'react-icons/ri';
+import { BsFillSunFill } from 'react-icons/bs';
 
 export function NavBar() {
     const  [burgerOpen, setBurgerOpen] = useState(false);
@@ -12,7 +14,7 @@ export function NavBar() {
 
     return (
         <div>
-            <a href='' className='logo'>SUM</a>
+            <a href='' className='logo'><BsFillSunFill size='25px'/><RiSailboatFill size='18px'/></a>
             <ul className='navigation'>
                 <div className='burger'>
                     <button onClick={toggleBurger}><GiHamburgerMenu size='25px'/></button>
