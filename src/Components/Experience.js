@@ -13,7 +13,7 @@ export function Experience() {
             <ul>
               <li>Motivated struggling students with my effective communication and used problem solving skills to teach complex concepts</li>
             </ul>
-            <hr />
+            <br/><br /><hr /><br />
             <h4>By Shear Design Salon and Spa <span class="date">April 2018 - Present</span></h4>
             <p>Part-Time Front Desk Receptionist and Shampoo Technician</p>
             <ul>
