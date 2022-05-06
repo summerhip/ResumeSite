@@ -17,7 +17,7 @@ export function NavBar() {
                 <div className='burger'>
                     <button onClick={toggleBurger}><GiHamburgerMenu size='25px'/></button>
                     <div className={`burgerNav ${burgerOpen ? ' showMenu' : ''}`}>
-                        <br /><br />
+                        <br /><br /><br />
                         <li ><Link smooth to='#top' onClick={toggleBurger}>About</Link></li>
                         <br />
                         <li ><Link smooth to='#education' onClick={toggleBurger}>Education</Link></li>
