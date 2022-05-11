@@ -14,7 +14,7 @@ export function NavBar() {
 
     return (
         <div>
-            <a href='' className='logo'><BsFillSunFill size='25px'/><RiSailboatFill size='18px'/></a>
+            <a href='' className='logo'><BsFillSunFill size='25px'/></a>
             <ul className='navigation'>
                 <div className='burger'>
                     <button onClick={toggleBurger}><GiHamburgerMenu size='25px'/></button>

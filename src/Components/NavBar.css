@@ -59,7 +59,8 @@
   z-index: 20;
   border-radius: 8px;
   margin: 1.5%;
-  width: 70px;
+  padding-top: 5px;
+  width: 40px;
   text-align: center;
   color: #303179;
   text-decoration: none;
