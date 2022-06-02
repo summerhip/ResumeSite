@@ -9,7 +9,7 @@
   background: #f5cac2;
   opacity: 90%;
   font-size: 80%;
-  animation: 1s ease-out 0s 1 slideInFromLeft;
+  animation: 1s ease-out 0s 1 slideInFromTop;
 }
 
 .navigation .burger button {
@@ -55,25 +55,16 @@
   font-family: 'Space Mono', monospace;
   position: fixed;
   top: 0;
-  font-size: larger;
   z-index: 20;
-  border-radius: 8px;
   margin: 1.5%;
-  padding-top: 5px;
   width: 40px;
   text-align: center;
   color: #303179;
   text-decoration: none;
-  animation: 1s ease-out 0s 1 slideInFromLeft;
-  transition:
-      border-top 0.15s linear,
-      border-right 0.15s linear 0.10s,
-      border-bottom 0.15s linear 0.20s,
-      border-left 0.15s linear 0.30s;
+  animation: 1s ease-out 0s 1 slideInFromTop;
 }
 
 .logo:hover {
-  border: 2px solid #7b7cb3;
   color: #7b7cb3;
 }
 
@@ -103,12 +94,12 @@
   max-height: 300px;
 }
 
-@keyframes slideInFromLeft {
+@keyframes slideInFromTop {
   0% {
-    transform: translateX(-100%);
+    transform: translateY(-100%);
   }
   100% {
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 

@@ -25,7 +25,7 @@
 }
 
 #about h1 {
-  font-size: 300%;
+  font-size: 500%;
   color: #ed7966;
   min-width: 475px;
 }
@@ -47,7 +47,7 @@
   #about {
     height: 200% !important;
   }
-  img.name {
-    min-width: 100%;
+  #about img.name {
+    width: 100%;
   }
 }
