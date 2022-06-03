@@ -23,6 +23,7 @@ body {
 .date {
   float: right;
   font-size: smaller;
+  font-family: monospace;
 }
 
 .content ul {

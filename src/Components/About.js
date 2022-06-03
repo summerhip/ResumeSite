@@ -5,11 +5,9 @@ export function About() {
     return (
         <div id='about'>
             <div className='aboutHeader'>
-                <ScrollAnimation animateIn='bounce' initiallyVisible={true} >
-                    <h5>Hi, my name is</h5>
-                    {/* <h1><strong>Summer Shipp.</strong></h1> */}
-                    <img src={require('../Pictures/summer.png')} className='name' alt='Summer Shipp'/>
-                </ScrollAnimation>
+                <h5>Hi, my name is</h5>
+                {/* <h1><strong>Summer Shipp.</strong></h1> */}
+                <img src={require('../Pictures/summer.png')} className='name' alt='Summer Shipp'/>
                 <h2>I'm a software engineer.</h2>
             </div>
             {/* <img src={require('./grad.jpg')} className="myPic" alt='Graduation' /> */}
